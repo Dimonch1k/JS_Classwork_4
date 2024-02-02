@@ -1,0 +1,18 @@
+.hero__form {
+    background-color: lightblue;
+    width: 300px;
+}
+
+.hero input {
+    display: block;
+    margin: 2px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.hero > div {
+    max-width: 50%;
+    max-height: 50%;
+}

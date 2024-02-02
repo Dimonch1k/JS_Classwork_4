@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="/CSS/Classwork.css">
+</head>
+<body>
+    <header>
+        Header
+    </header>
+
+    <main>
+        <section class="hero">
+            <div>
+                <form class="hero__form">
+                    <label>
+                        <input type="text" id="name" name="u_name" placeholder="Name">
+                        <input type="text" id="surname" name="u_surname" placeholder="Surname">
+                        <input type="number" id="phone" name="u_number" placeholder="+380 ...">
+                        <input type="email" id="email" name="u_email" placeholder="John@doe.com">
+
+                        <select name="dist" id="dist">
+                            <option value="one">one</option>
+                            <option value="two">two</option>
+                            <option value="three">three</option>
+                            <option value="four">four</option>
+                        </select>
+                        <input type="file" id="file">
+
+                        <input type="submit" id="send_btn" value="Send">
+                    </label>
+                </form>
+            </div>
+
+            <div>
+                <h2>
+                    RESULT
+                </h2>
+                <p>
+                    Name:
+                    <span id="show_name"></span>
+                </p>
+                <p>
+                    Surname:
+                    <span id="show_surname"></span>
+                </p>
+                <p>
+                    Number:
+                    <span id="show_number"></span>
+                </p>
+                <p>
+                    Email:
+                    <span id="show_email"></span>
+                </p>
+                <p>
+                    Select:
+                    <span id="show_dist"></span>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Footer
+    </footer>
+
+    <script src="/JS/Classwork.js"></script>
+</body>
+</html>
